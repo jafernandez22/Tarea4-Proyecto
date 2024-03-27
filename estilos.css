@@ -1,0 +1,62 @@
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1
+{
+    padding: 15px;
+    border: 10px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}
+
+.cabecera{
+    background-image: url(cabecera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 250px;
+}
+
+.deportes{
+    background-image: url(deportes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 250px;
+}
+
+.otros{
+    background-image: url(otros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 250px;
+}
+
+.container-targetas{
+    margin-left: 460px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card{
+    margin: 20px;
+}
+
+.btn-group{
+    margin-left: 800px;
+}
+
+.progress{
+    margin: 20px;
+}
